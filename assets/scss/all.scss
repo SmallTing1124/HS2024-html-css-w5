@@ -1,0 +1,77 @@
+// 字型載入  font-family: "Roboto Mono", monospace;
+// 字型載入  font-family: "Lato", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// 1. 現砍入「functions」（這樣你就可以操作顏色、SVG、計算等）
+@import "bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here 
+// 2. 在此包含任何預設變數覆蓋
+
+
+// 3. Include remainder of required Bootstrap stylesheets
+// 3. 包含必要的 Bootstrap 樣式表的剩餘部分
+@import "./helpers/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+
+
+// 4. Include any optional Bootstrap components as you like
+// 4. 根據需要包含任何可選的 Bootstrap 元件 (// Layout & components)
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/helpers";
+
+
+// 5. Add additional custom code here
+// 5. 在此處添加額外的自訂程式碼
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+
+
+
+// base
+@import "./base/base";
+@import "./base/typography";
+
+// layout
+@import './layout/aside';
+@import './layout/header';
+@import './layout/footer';
+
+// page
+@import './pages/index';

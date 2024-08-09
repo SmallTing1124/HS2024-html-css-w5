@@ -1,0 +1,36 @@
+.navbar {
+  width: 296px;
+
+  .navbar-brand {
+    margin-bottom: 2rem;
+  }
+
+  .nav-item {
+    margin-bottom: 1rem;
+  }
+
+  .nav-link {
+    display: flex;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: $gray-900;
+    padding-left: 32px;
+
+
+    &:hover {
+      color: $success;
+    }
+
+    &.active {
+      color: $success;
+      border-left: 4px solid $success;
+      padding-left: calc(32px - 4px);
+    }
+
+    span{
+      display: inline-block;
+      margin-right: 1rem;
+    }
+  }
+}

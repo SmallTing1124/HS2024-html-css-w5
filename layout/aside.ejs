@@ -1,0 +1,68 @@
+<nav class="navbar bg-body-tertiary position-fixed">
+  <div class="d-flex flex-column align-items-start vh-100 w-100">
+    <a class="navbar-brand ps-5 mt-5" href="index.html">
+      <img src="../assets/images/logo-ANSWER.svg" alt="ANSWER">
+    </a>
+
+    <ul class="navbar-nav w-100">
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="material-symbols-outlined">
+            assessment
+          </span>
+          Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="material-symbols-outlined">
+            question_answer
+          </span>
+          Question
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  <%= page === 'assignment' ? 'active' : '' %>" aria-current="page" href="index.html">
+          <span class="material-symbols-outlined">
+            assignment
+          </span>
+          Assignment
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="material-symbols-outlined">
+            video_library
+          </span>
+          Course
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link <%= page === 'admin' ? 'active' : '' %>" href="admin.html">
+          <span class="material-symbols-outlined">
+            supervisor_account
+          </span>
+          Admin
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="material-symbols-outlined">
+            settings
+          </span>
+          Settings
+        </a>
+      </li>
+    </ul>
+
+
+    <div class="d-flex align-items-center mt-auto mb-5 ps-5">
+      <div class="flex-shrink-0">
+        <img src="../assets/images/andychen.jpeg" width="40" height="40" alt="andychen" class="rounded-circle">
+      </div>
+      <div class="flex-grow-1 ms-3">
+        <b class="d-block">Andy Chen</b>
+        <small>andy0401@mail.com</small>
+      </div>
+    </div>
+  </div>
+</nav>
